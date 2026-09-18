@@ -3,6 +3,874 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>泰國市場火災逃生呼吸防護面罩｜戰略合作說明</title>
-<!-- FULL_FILE_PLACEHOLDER -->
-</head><body><p>loading</p></body></html>
+<title>泰國市場火災避難用呼吸防護面罩｜事業合作說明</title>
+<style>
+  :root {
+    --bg: #f4f6f9;
+    --card: #ffffff;
+    --ink: #1a2332;
+    --muted: #5a6577;
+    --line: #e2e8f0;
+    --accent: #0b5fff;
+    --accent-soft: #e8f0ff;
+    --warn: #b45309;
+    --warn-bg: #fff7ed;
+    --warn-border: #fdba74;
+    --ok: #047857;
+    --ok-bg: #ecfdf5;
+    --shadow: 0 1px 2px rgba(16,24,40,.06), 0 8px 24px rgba(16,24,40,.06);
+    --radius: 14px;
+    --max: 920px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC", "Hiragino Sans",
+      "Noto Sans Thai", "Thonburi", "Tahoma", "Noto Sans CJK JP", "Noto Sans KR", "Malgun Gothic", "Microsoft JhengHei", sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.65;
+    font-size: 15.5px;
+  }
+  .lang-bar {
+    position: fixed;
+    top: 14px;
+    right: 14px;
+    z-index: 100;
+    display: flex;
+    gap: 6px;
+    padding: 5px;
+    background: rgba(255,255,255,.92);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    box-shadow: var(--shadow);
+  }
+  .lang-bar button {
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .lang-bar button[aria-pressed="true"] {
+    background: var(--accent);
+    color: #fff;
+  }
+  .wrap {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 28px 18px 72px;
+  }
+  header.hero {
+    background: linear-gradient(145deg, #0b1f44 0%, #123a7a 55%, #0b5fff 100%);
+    color: #fff;
+    border-radius: calc(var(--radius) + 4px);
+    padding: 28px 24px 24px;
+    box-shadow: var(--shadow);
+    margin-bottom: 18px;
+  }
+  header.hero .eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .04em;
+    background: rgba(255,255,255,.16);
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 12px;
+  }
+  header.hero h1 {
+    margin: 0 0 10px;
+    font-size: clamp(1.25rem, 3.2vw, 1.65rem);
+    line-height: 1.35;
+    font-weight: 750;
+  }
+  header.hero .meta {
+    margin: 0;
+    opacity: .9;
+    font-size: 13.5px;
+  }
+  .banner-th {
+    margin-top: 16px;
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.22);
+    border-radius: 10px;
+    padding: 10px 12px;
+    font-size: 13.5px;
+    font-weight: 600;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 16px 0 20px;
+  }
+  @media (max-width: 720px) {
+    .cards { grid-template-columns: 1fr; }
+    .lang-bar { left: 14px; right: 14px; justify-content: center; }
+    .wrap { padding-top: 64px; }
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px 16px 14px;
+    box-shadow: var(--shadow);
+  }
+  .card .label {
+    font-size: 12px;
+    color: var(--muted);
+    font-weight: 650;
+    margin-bottom: 4px;
+  }
+  .card .value {
+    font-size: 1.35rem;
+    font-weight: 780;
+    letter-spacing: -.02em;
+    color: var(--accent);
+  }
+  .card .sub {
+    font-size: 12.5px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  section.block {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 20px 20px 16px;
+    margin-bottom: 14px;
+    box-shadow: var(--shadow);
+  }
+  section.block h2 {
+    margin: 0 0 12px;
+    font-size: 1.05rem;
+    font-weight: 750;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  section.block h3 {
+    margin: 14px 0 6px;
+    font-size: .95rem;
+    font-weight: 700;
+    color: #0f2d6b;
+  }
+  p { margin: 0 0 10px; }
+  ul { margin: 0 0 8px; padding-left: 1.15em; }
+  li { margin-bottom: 5px; }
+  .positioning {
+    background: var(--ok-bg);
+    border: 1px solid #a7f3d0;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+  }
+  .positioning p:last-child { margin-bottom: 0; }
+  .facts {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px 18px 12px;
+    margin-bottom: 14px;
+    box-shadow: var(--shadow);
+  }
+  .facts p { margin: 0 0 8px; font-size: 14.5px; }
+  .facts p:last-child { margin-bottom: 0; }
+  .facts .strong-line { font-weight: 700; color: #0f2d6b; }
+  .note { font-size: 13.5px; color: var(--muted); margin-top: 8px; }
+  .emphasis {
+    background: var(--warn-bg);
+    border: 2px solid var(--warn-border);
+    border-radius: var(--radius);
+    padding: 18px 18px 14px;
+    margin-bottom: 14px;
+    box-shadow: 0 0 0 4px rgba(251,146,60,.12);
+  }
+  .emphasis h2 {
+    margin: 0 0 10px;
+    color: var(--warn);
+    font-size: 1.08rem;
+    border: 0;
+    padding: 0;
+  }
+  .emphasis .core {
+    font-weight: 700;
+    font-size: 15.5px;
+    margin-bottom: 10px;
+  }
+  .pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 10px 0 4px;
+  }
+  .pill {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid var(--warn-border);
+    color: var(--warn);
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 999px;
+  }
+  .stage {
+    margin-bottom: 12px;
+    padding: 12px 14px;
+    background: var(--accent-soft);
+    border-radius: 10px;
+  }
+  .stage-label {
+    font-weight: 750;
+    color: #0f2d6b;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  .stage ul { margin-bottom: 0; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+    margin: 8px 0 4px;
+  }
+  th, td {
+    border-bottom: 1px solid var(--line);
+    padding: 8px 6px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { font-size: 12px; color: var(--muted); font-weight: 700; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  tfoot td { font-weight: 750; border-bottom: 0; }
+  footer {
+    margin-top: 18px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 12.5px;
+  }
+  .sublist { margin: 6px 0 8px; padding-left: 1.15em; list-style: disc; }
+</style>
+</head>
+<body>
+  <nav class="lang-bar" aria-label="Language">
+    <button type="button" data-lang="zh" aria-pressed="true">中文</button>
+    <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+    <button type="button" data-lang="ko" aria-pressed="false">한국어</button>
+    <button type="button" data-lang="th" aria-pressed="false">ไทย</button>
+  </nav>
+
+  <div class="wrap">
+    <header class="hero">
+      <div class="eyebrow" data-i18n="eyebrow">事業合作說明 · Partner Brief</div>
+      <h1 data-i18n="title">泰國市場火災避難用呼吸防護面罩</h1>
+      <p class="meta">
+        <span data-i18n="meta_init">項目發起：多國籍共同團隊（我方、Big Master、Smart Face）</span><br>
+        <span data-i18n="meta_tech">產品・技術：韓國 Saving Story</span>
+      </p>
+      <div class="banner-th" data-i18n="banner_th">本資料對象僅限泰國市場。日本、韓國、東盟及其他國家不包含在內。</div>
+    </header>
+
+    <div class="cards">
+      <div class="card">
+        <div class="label" data-i18n="card1_label">批發單價</div>
+        <div class="value">380฿</div>
+        <div class="sub" data-i18n="card1_sub">約 1,780 日圓</div>
+      </div>
+      <div class="card">
+        <div class="label" data-i18n="card2_label">三年銷售市場規模</div>
+        <div class="value">5.89億฿</div>
+        <div class="sub" data-i18n="card2_sub">約 27.6 億日圓</div>
+      </div>
+      <div class="card">
+        <div class="label" data-i18n="card3_label">三年出貨目標</div>
+        <div class="value">155萬套</div>
+        <div class="sub" data-i18n="card3_sub">30萬 / 50萬 / 75萬</div>
+      </div>
+    </div>
+
+    <section class="positioning">
+      <p data-i18n-html="positioning"></p>
+    </section>
+
+    <section class="facts">
+      <p data-i18n="fact_fx">參考匯率：1฿ ≒ 4.69日圓（2026年9月）。日圓換算僅供參考，契約及結算以฿為準。</p>
+      <p data-i18n="fact_unit">計算所用單價為批發價約1,780日圓（380฿）。</p>
+      <p data-i18n="fact_kr">韓國官方網站24,000韓元（約2,540日圓）為市售下限價，不作為三年市場規模計算依據。</p>
+      <p class="strong-line" data-i18n="fact_market">三年銷售市場規模：約27.6億日圓（5.89億฿）＝155萬套 × 約1,780日圓</p>
+      <p data-i18n="fact_ship">三年出貨目標：155萬套（第1年30萬、第2年50萬、第3年75萬）</p>
+      <p data-i18n="fact_map">最低零售價（MAP）：約2,720日圓（580฿）</p>
+    </section>
+
+    <section class="block">
+      <h2 data-i18n="s1_title">一、角色分工</h2>
+      <ul>
+        <li data-i18n="s1_ss">Saving Story：開發、改良、品質管理。本產品專利實施權以現物出資。</li>
+        <li data-i18n="s1_us">我方：與泰國防災及勞動安全主管機關折衝。非醫療用消防器材許認可，以及泰國與東盟販路開拓。</li>
+        <li data-i18n="s1_bm">Big Master 李氏：跨境談判。韓國側商務與供應確保之窗口。</li>
+        <li data-i18n="s1_sf">Smart Face 杉本氏：日本防災備蓄及大型案件（醫院、學校等公共設施）販路。日本不計入本資料市場範圍。條件齊備後再著手。</li>
+      </ul>
+      <p class="note" data-i18n="s1_note">初期以輕資產經營為基本。因此不持有固定資產，資源集中於許認可、接單與價格管理。</p>
+    </section>
+
+    <section class="block">
+      <h2 data-i18n="s2_title">二、商品價格的固定基準</h2>
+      <p data-i18n="s2_p1">本事業希望取得泰國專賣許可。</p>
+      <p data-i18n="s2_p2">韓國官方網站價格為統一最低零售價（24,000韓元，約2,540日圓）。</p>
+      <p data-i18n="s2_p3">韓國詢價窗口回覆零售價時，一律以該統一零售價回答。</p>
+      <p data-i18n="s2_p4">韓國收到的批發詢價，轉交泰方統一處理。</p>
+      <p data-i18n="s2_p5">目的在於避免同一產品出現多種價格，並迴避價格競爭。韓國側生產數量亦須配合專賣銷售路線調整。</p>
+    </section>
+
+    <section class="block">
+      <h2 data-i18n="s3_title">三、今後推進方式（四個階段）— 順序固定，不是「若A再考慮B」。</h2>
+
+      <div class="stage">
+        <div class="stage-label" data-i18n="s3_1_label">第一階段（6個月以內）</div>
+        <ul>
+          <li data-i18n="s3_1_a">臨時專賣契約：與泰方代表簽訂臨時之泰國內獨占銷售代理契約（≤6個月）。作為合資設立前之合法代理人地位。設立後改以合資名義重新簽約，臨時契約終止。</li>
+          <li data-i18n="s3_1_b">合資公司設立準備：申請非醫療用消防器材認證；股權比例及章程草案。</li>
+          <li data-i18n="s3_1_c">初期銷售方針：透過財界人脈抓大宗。前2～3個月不發貨、辦許可；其後小範圍出貨，半年約1.2萬套。</li>
+        </ul>
+      </div>
+
+      <div class="stage">
+        <div class="stage-label" data-i18n="s3_2_label">第二階段（第7個月起）</div>
+        <ul>
+          <li data-i18n="s3_2_a">設立合資公司。Saving Story以專利實施權現物出資。</li>
+          <li data-i18n="s3_2_b">正式切換為以合資名義之亞洲地區總代理契約：臨時專賣結束後簽訂。臨時與正式不同時並行。</li>
+          <li data-i18n="s3_2_c">運營：輕資產經營。價格仍依韓國官方網站基準統一。韓國生產數量亦配合專賣路線調整。</li>
+        </ul>
+      </div>
+
+      <div class="stage">
+        <div class="stage-label" data-i18n="s3_3_label">第三階段（銷售量達到30萬套後）</div>
+        <ul>
+          <li data-i18n="s3_3_a">前提為銷售量達到30萬套後。股東會選擇：A 泰國委託生產 / B 引資建廠。品質基準以韓國側為準。目的不僅泰國，亦面向東盟。Form D取得準備並行，以享東盟原產地關稅優惠。</li>
+        </ul>
+      </div>
+
+      <div class="stage">
+        <div class="stage-label" data-i18n="s3_4_label">第四階段</div>
+        <ul>
+          <li data-i18n="s3_4_a">泰國製造體制就緒後進入本階段。擴大亞洲全域販路；採更強力之銷售方針；注入大型資本；追求飛躍成長。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="emphasis" id="price-power">
+      <h2 data-i18n="s4_title">四、銷售壁壘與價格主導權</h2>
+      <p class="core" data-i18n="s4_core">市場價格主導權是核心。沒有壁壘就守不住價格；守不住價格就無法成立高收益。</p>
+      <div class="pill-row">
+        <span class="pill">MAP 580฿</span>
+        <span class="pill" data-i18n="s4_pill2">專賣側統一定價</span>
+        <span class="pill" data-i18n="s4_pill3">權利金 ＋ 專利股權</span>
+      </div>
+      <ul>
+        <li data-i18n="s4_a">MAP 580฿。大宗亦由專賣側一括處理，批發價固定。報價・折扣・套裝・標案亦由專賣側統一。</li>
+        <li data-i18n="s4_b">渠道不留在個人或其他公司；簽約後歸屬合資。專利權與銷售置於同一法人。供給／價格／渠道單一窗口。韓國側僅與合資交易，不對最終客戶直接報價・直接銷售。</li>
+      </ul>
+      <p data-i18n="s4_kr_intro">韓國側收益採二層結構：</p>
+      <ul>
+        <li data-i18n="s4_royalty">權利金（Royalty）：每售出即收取；費率／方式另議。分兩階段算定——①韓國完成品進口銷售期間 ②泰國現地生產開始後。</li>
+        <li data-i18n="s4_equity">專利股權：成為股東，分享營業利益／分紅。</li>
+      </ul>
+    </section>
+
+    <section class="block">
+      <h2 data-i18n="s5_title">五、三年出貨目標（單價380฿）</h2>
+      <table>
+        <thead>
+          <tr>
+            <th data-i18n="s5_h1">年度</th>
+            <th class="num" data-i18n="s5_h2">套數</th>
+            <th class="num" data-i18n="s5_h3">金額（฿）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td data-i18n="s5_y1">第1年</td><td class="num">30萬</td><td class="num">1.14億</td></tr>
+          <tr><td data-i18n="s5_y2">第2年</td><td class="num">50萬</td><td class="num">1.90億</td></tr>
+          <tr><td data-i18n="s5_y3">第3年</td><td class="num">75萬</td><td class="num">2.85億</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><td data-i18n="s5_total">合計</td><td class="num">155萬</td><td class="num">5.89億</td></tr>
+        </tfoot>
+      </table>
+      <p class="note" data-i18n="s5_note">第1年節奏：1〜3月不出貨；4〜6月約1.2萬；7〜12月約28.8萬。</p>
+    </section>
+
+    <section class="block">
+      <h2 data-i18n="s6_title">六、泰國一次配置</h2>
+      <div style="overflow-x:auto">
+      <table>
+        <thead>
+          <tr>
+            <th data-i18n="s6_h1">渠道</th>
+            <th data-i18n="s6_h2">算法</th>
+            <th class="num" data-i18n="s6_h3">套數</th>
+            <th class="num">×380</th>
+            <th class="num" data-i18n="s6_h5">占比</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-i18n="s6_r1">三星及以上飯店（含度假村）</td>
+            <td>685,883×30%</td>
+            <td class="num">205,765</td>
+            <td class="num">0.78億</td>
+            <td class="num">23.2%</td>
+          </tr>
+          <tr>
+            <td data-i18n="s6_r2">正規夜店</td>
+            <td>1,383×200</td>
+            <td class="num">276,600</td>
+            <td class="num">1.05億</td>
+            <td class="num">31.2%</td>
+          </tr>
+          <tr>
+            <td data-i18n="s6_r3">酒吧</td>
+            <td>11,567×20</td>
+            <td class="num">231,340</td>
+            <td class="num">0.88億</td>
+            <td class="num">26.1%</td>
+          </tr>
+          <tr>
+            <td data-i18n="s6_r4">國際學校</td>
+            <td>257×150</td>
+            <td class="num">38,550</td>
+            <td class="num">0.15億</td>
+            <td class="num">4.3%</td>
+          </tr>
+          <tr>
+            <td data-i18n="s6_r5">高學費帶私立學校</td>
+            <td data-i18n="s6_a5">20萬學生×30%</td>
+            <td class="num">60,000</td>
+            <td class="num">0.23億</td>
+            <td class="num">6.8%</td>
+          </tr>
+          <tr>
+            <td data-i18n="s6_r6">消防站</td>
+            <td>300×50</td>
+            <td class="num">15,000</td>
+            <td class="num">0.06億</td>
+            <td class="num">1.7%</td>
+          </tr>
+          <tr>
+            <td data-i18n="s6_r7">EEC（東部工業區域）危險物取扱工廠</td>
+            <td>600×100</td>
+            <td class="num">60,000</td>
+            <td class="num">0.23億</td>
+            <td class="num">6.8%</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td data-i18n="s6_total">合計</td>
+            <td></td>
+            <td class="num">887,255</td>
+            <td class="num">3.37億</td>
+            <td class="num">100%</td>
+          </tr>
+        </tfoot>
+      </table>
+      </div>
+      <p class="note" data-i18n="s6_note">夜店＋酒吧約57%。155萬高於88.7萬，因兩年更換與第3年擴大。客房取NSO 2024飯店＋度假村685,883。產品：非醫療級、火災初期有毒煙氣防護。</p>
+    </section>
+
+    <section class="block">
+      <h2 data-i18n="s7_title">七、價格與銷售</h2>
+      <ul>
+        <li data-i18n="s7_a">官網24,000韓元為零售統一基準；批發380฿；MAP 580฿。</li>
+        <li data-i18n="s7_b">泰國採獨占銷售（專賣）。本資料不含日本・韓國・其他國家。</li>
+        <li data-i18n="s7_c">僅泰國一國、三年5.89億฿（約27.6億日圓）已足驗證事業。</li>
+        <li data-i18n="s7_d">日圓換算僅供參考。契約與結算以฿為準。參考匯率：1฿ ≒ 4.69日圓（2026年9月）。</li>
+      </ul>
+    </section>
+
+    <footer data-i18n="footer">Confidential · Thailand market only · Saving Story / Big Master / Smart Face</footer>
+  </div>
+
+<script>
+const T = {
+zh: {
+  htmlLang: "zh-Hant",
+  docTitle: "泰國市場火災避難用呼吸防護面罩｜事業合作說明",
+  eyebrow: "事業合作說明 · Partner Brief",
+  title: "泰國市場火災避難用呼吸防護面罩",
+  meta_init: "項目發起：多國籍共同團隊（我方、Big Master、Smart Face）",
+  meta_tech: "產品・技術：韓國 Saving Story",
+  banner_th: "本資料對象僅限泰國市場。日本、韓國、東盟及其他國家不包含在內。",
+  card1_label: "批發單價",
+  card1_sub: "約 1,780 日圓",
+  card2_label: "三年銷售市場規模",
+  card2_sub: "約 27.6 億日圓",
+  card3_label: "三年出貨目標",
+  card3_sub: "30萬 / 50萬 / 75萬",
+  positioning: "本產品在泰國的銷售採<strong>獨占銷售</strong>。<br>首先推進進口商品在泰國銷售所需許認可之取得，以及合資公司設立手續。公司設立後，經由泰國內販路階段性擴大銷售，其後再移行至現地生産。<br>銷售價格嚴格遵守韓國官方網站基準，維持高收益性。",
+  fact_fx: "參考匯率：1฿ ≒ 4.69日圓（2026年9月）。日圓換算僅供參考，契約及結算以฿為準。",
+  fact_unit: "計算所用單價為批發價約1,780日圓（380฿）。",
+  fact_kr: "韓國官方網站24,000韓元（約2,540日圓）為市售下限價，不作為三年市場規模計算依據。",
+  fact_market: "三年銷售市場規模：約27.6億日圓（5.89億฿）＝155萬套 × 約1,780日圓",
+  fact_ship: "三年出貨目標：155萬套（第1年30萬、第2年50萬、第3年75萬）",
+  fact_map: "最低零售價（MAP）：約2,720日圓（580฿）",
+  s1_title: "一、角色分工",
+  s1_ss: "Saving Story：開發、改良、品質管理。本產品專利實施權以現物出資。",
+  s1_us: "我方：與泰國防災及勞動安全主管機關折衝。非醫療用消防器材許認可，以及泰國與東盟販路開拓。",
+  s1_bm: "Big Master 李氏：跨境談判。韓國側商務與供應確保之窗口。",
+  s1_sf: "Smart Face 杉本氏：日本防災備蓄及大型案件（醫院、學校等公共設施）販路。日本不計入本資料市場範圍。條件齊備後再著手。",
+  s1_note: "初期以輕資產經營為基本。因此不持有固定資產，資源集中於許認可、接單與價格管理。",
+  s2_title: "二、商品價格的固定基準",
+  s2_p1: "本事業希望取得泰國專賣許可。",
+  s2_p2: "韓國官方網站價格為統一最低零售價（24,000韓元，約2,540日圓）。",
+  s2_p3: "韓國詢價窗口回覆零售價時，一律以該統一零售價回答。",
+  s2_p4: "韓國收到的批發詢價，轉交泰方統一處理。",
+  s2_p5: "目的在於避免同一產品出現多種價格，並迴避價格競爭。韓國側生產數量亦須配合專賣銷售路線調整。",
+  s3_title: "三、今後推進方式（四個階段）— 順序固定，不是「若A再考慮B」。",
+  s3_1_label: "第一階段（6個月以內）",
+  s3_1_a: "臨時專賣契約：與泰方代表簽訂臨時之泰國內獨占銷售代理契約（≤6個月）。作為合資設立前之合法代理人地位。設立後改以合資名義重新簽約，臨時契約終止。",
+  s3_1_b: "合資公司設立準備：申請非醫療用消防器材認證；股權比例及章程草案。",
+  s3_1_c: "初期銷售方針：透過財界人脈抓大宗。前2～3個月不發貨、辦許可；其後小範圍出貨，半年約1.2萬套。",
+  s3_2_label: "第二階段（第7個月起）",
+  s3_2_a: "設立合資公司。Saving Story以專利實施權現物出資。",
+  s3_2_b: "正式切換為以合資名義之亞洲地區總代理契約：臨時專賣結束後簽訂。臨時與正式不同時並行。",
+  s3_2_c: "運營：輕資產經營。價格仍依韓國官方網站基準統一。韓國生產數量亦配合專賣路線調整。",
+  s3_3_label: "第三階段（銷售量達到30萬套後）",
+  s3_3_a: "前提為銷售量達到30萬套後。股東會選擇：A 泰國委託生產 / B 引資建廠。品質基準以韓國側為準。目的不僅泰國，亦面向東盟。Form D取得準備並行，以享東盟原產地關稅優惠。",
+  s3_4_label: "第四階段",
+  s3_4_a: "泰國製造體制就緒後進入本階段。擴大亞洲全域販路；採更強力之銷售方針；注入大型資本；追求飛躍成長。",
+  s4_title: "四、銷售壁壘與價格主導權",
+  s4_core: "市場價格主導權是核心。沒有壁壘就守不住價格；守不住價格就無法成立高收益。",
+  s4_pill2: "專賣側統一定價",
+  s4_pill3: "權利金 ＋ 專利股權",
+  s4_a: "MAP 580฿。大宗亦由專賣側一括處理，批發價固定。報價・折扣・套裝・標案亦由專賣側統一。",
+  s4_b: "渠道不留在個人或其他公司；簽約後歸屬合資。專利權與銷售置於同一法人。供給／價格／渠道單一窗口。韓國側僅與合資交易，不對最終客戶直接報價・直接銷售。",
+  s4_kr_intro: "韓國側收益採二層結構：",
+  s4_royalty: "權利金（Royalty）：每售出即收取；費率／方式另議。分兩階段算定——①韓國完成品進口銷售期間 ②泰國現地生產開始後。",
+  s4_equity: "專利股權：成為股東，分享營業利益／分紅。",
+  s5_title: "五、三年出貨目標（單價380฿）",
+  s5_h1: "年度",
+  s5_h2: "套數",
+  s5_h3: "金額（฿）",
+  s5_y1: "第1年",
+  s5_y2: "第2年",
+  s5_y3: "第3年",
+  s5_total: "合計",
+  s5_note: "第1年節奏：1〜3月不出貨；4〜6月約1.2萬；7〜12月約28.8萬。",
+  s6_title: "六、泰國一次配置",
+  s6_h1: "渠道",
+  s6_h2: "算法",
+  s6_h3: "套數",
+  s6_h5: "占比",
+  s6_r1: "三星及以上飯店（含度假村）",
+  s6_r2: "正規夜店",
+  s6_r3: "酒吧",
+  s6_r4: "國際學校",
+  s6_r5: "高學費帶私立學校",
+  s6_a5: "20萬學生×30%",
+  s6_r6: "消防站",
+  s6_r7: "EEC（東部工業區域）危險物取扱工廠",
+  s6_total: "合計",
+  s6_note: "夜店＋酒吧約57%。155萬高於88.7萬，因兩年更換與第3年擴大。客房取NSO 2024飯店＋度假村685,883。產品：非醫療級、火災初期有毒煙氣防護。",
+  s7_title: "七、價格與銷售",
+  s7_a: "官網24,000韓元為零售統一基準；批發380฿；MAP 580฿。",
+  s7_b: "泰國採獨占銷售（專賣）。本資料不含日本・韓國・其他國家。",
+  s7_c: "僅泰國一國、三年5.89億฿（約27.6億日圓）已足驗證事業。",
+  s7_d: "日圓換算僅供參考。契約與結算以฿為準。參考匯率：1฿ ≒ 4.69日圓（2026年9月）。",
+  footer: "Confidential · 僅限泰國市場 · Saving Story / Big Master / Smart Face"
+},
+ja: {
+  htmlLang: "ja",
+  docTitle: "タイ市場　火災避難用呼吸防護マスク｜事業協力に関する説明",
+  eyebrow: "事業協力に関する説明 · Partner Brief",
+  title: "タイ市場　火災避難用呼吸防護マスク",
+  meta_init: "プロジェクト発起：多国籍共同チーム（当社、Big Master、Smart Face）",
+  meta_tech: "製品・技術：韓国 Saving Story",
+  banner_th: "本資料の対象はタイ市場に限定します。日本、韓国、ASEANその他の国は含まれません。",
+  card1_label: "卸売価格",
+  card1_sub: "約1,780円（380฿）",
+  card2_label: "3年間の販売市場規模",
+  card2_sub: "約27.6億円（5.89億฿）",
+  card3_label: "3年間の出荷目標",
+  card3_sub: "30万 / 50万 / 75万セット",
+  positioning: "本製品のタイにおける販売は、<strong>独占販売</strong>とします。<br>まずは、輸入商品をタイで販売するために必要な許認可の取得と、合弁会社の設立手続きを進めます。会社設立後は、タイ国内の販路を通じて段階的に販売を拡大し、その後に現地生産へ移行します。<br>販売価格は韓国公式サイトの基準を厳守し、高い収益性を維持します。",
+  fact_fx: "円換算は参考であり、契約および決済は฿を基準とします。参考為替レート：1฿ ≒ 4.69円（2026年9月）。",
+  fact_unit: "計算に使用する単価は、卸売価格 約1,780円（380฿）です。",
+  fact_kr: "韓国公式サイトの24,000韓国ウォン（約2,540円）は市販の下限価格であり、3年間の市場規模計算には用いません。",
+  fact_market: "3年間の販売市場規模は、約27.6億円（5.89億฿）＝155万セット × 約1,780円です。",
+  fact_ship: "3年間の出荷目標は、155万セット（第1年 30万セット、第2年 50万セット、第3年 75万セット）です。",
+  fact_map: "最低小売価格（MAP）は、約2,720円（580฿）です。",
+  s1_title: "一、役割分担",
+  s1_ss: "Saving Story：開発、改良、品質管理を担います。本製品の特許実施権を現物出資します。",
+  s1_us: "当社：タイの防災および労働安全主管機関との折衝を担当します。非医療用消防器材の許認可取得、ならびにタイおよびASEANの販路開拓を進めます。",
+  s1_bm: "Big Master 李氏：越境交渉を担当します。韓国側のビジネスおよび供給確保の窓口となります。",
+  s1_sf: "Smart Face 杉本氏：日本の防災備蓄および大型案件（病院・学校などの公共施設）向け販路を担当します。日本は本資料の市場範囲に含まれません。着手時期は条件が整った後とします。",
+  s1_note: "初期はアセットライト経営を基本とします。そのため固定資産は保有せず、リソースは許認可、受注、価格管理に集中します。",
+  s2_title: "二、商品価格の固定基準",
+  s2_p1: "本事業では、タイにおける専売許可を希望します。",
+  s2_p2: "韓国公式サイトの価格を、統一最低小売価格とします（24,000韓国ウォン、約2,540円）。",
+  s2_p3: "韓国の問い合わせ窓口が小売価格を回答する際も、当該統一小売価格で回答します。",
+  s2_p4: "韓国に寄せられる卸売の問い合わせは、タイ側へ回付し、統一対応します。",
+  s2_p5: "目的は、同一製品の複数価格を防ぎ、価格競争を回避することです。韓国側の生産数量も、専売販売ルートに合わせて調整する必要があります。",
+  s3_title: "三、今後の進め方（4つの段階）— 順序は固定です。「AならBを検討」ではありません。",
+  s3_1_label: "第一段階（6ヶ月以内）",
+  s3_1_a: "臨時専売契約：タイ側代表者と、臨時のタイ国内独占販売代理契約（≤6ヶ月）を締結します。合弁設立までの合法代理人としての地位を確保します。設立後は合弁名義で再契約し、臨時契約は終了します。",
+  s3_1_b: "合弁会社設立準備：非医療用消防器材の認証申請を進めます。株式比率および定款草案を整えます。",
+  s3_1_c: "初期販売方針：財界人脈を通じて大口を確保します。最初の2～3ヶ月は出荷せず許認可に注力し、その後は小範囲で出荷し、半年で約1.2万セットを目指します。",
+  s3_2_label: "第二段階（7ヶ月目以降）",
+  s3_2_a: "合弁会社を設立します。Saving Storyは特許実施権を現物出資します。",
+  s3_2_b: "合弁名義のアジア地域総代理契約へ正式に切り替えます。臨時専売の終了後に締結し、臨時と正式は並行しません。",
+  s3_2_c: "運営は軽資産経営とします。価格は引き続き韓国公式サイト基準で統一します。韓国の生産数量も専売ルートに合わせて調整します。",
+  s3_3_label: "第三段階（販売量が30万セット到達後）",
+  s3_3_a: "前提は、販売量が30万セットに到達した後です。株主総会で選択します：A タイ委託生産 / B 引資による工場建設。品質基準は韓国側に準拠します。目的はタイのみならずASEANです。Form Dの取得準備も並行し、ASEAN原産地関税特恵に備えます。",
+  s3_4_label: "第四段階",
+  s3_4_a: "タイの製造体制が整った後に本段階へ入ります。アジア全域の販路を拡大し、より強力な販売方針を採り、大型資本を投入し、飛躍的成長を目指します。",
+  s4_title: "四、販売障壁と価格主導権",
+  s4_core: "市場価格の主導権が中核です。障壁がなければ価格を守れず、価格を守れなければ高収益は成立しません。",
+  s4_pill2: "専売側による統一定価",
+  s4_pill3: "ロイヤルティ ＋ 特許持分",
+  s4_a: "MAPは580฿です。大口も専売側が一括対応し、卸値は固定します。見積・割引・セット・入札も専売側が統一します。",
+  s4_b: "販路は個人や別会社に残さず、契約後は合弁に帰属します。特許権と販売を同じ法人に置きます。供給／価格／販路は一元窓口とします。韓国側は合弁とのみ取引し、最終顧客への直接見積・直接販売は行いません。",
+  s4_kr_intro: "韓国側の収益は二層構造とします。",
+  s4_royalty: "ロイヤルティ：販売ごとに徴収します。料率／方法は別途協議します。算定は二段階——①韓国完成品の輸入販売期間 ②タイ現地生産開始後——とします。",
+  s4_equity: "特許持分：株主となり、営業利益／配当を分かち合います。",
+  s5_title: "五、3年間の出荷目標（単価380฿）",
+  s5_h1: "年度",
+  s5_h2: "セット数",
+  s5_h3: "金額（฿）",
+  s5_y1: "第1年",
+  s5_y2: "第2年",
+  s5_y3: "第3年",
+  s5_total: "合計",
+  s5_note: "第1年のリズムは次のとおりです。1〜3月は出荷なし、4〜6月は約1.2万セット、7〜12月は約28.8万セットです。",
+  s6_title: "六、タイにおける一次配置",
+  s6_h1: "販路",
+  s6_h2: "算出",
+  s6_h3: "セット数",
+  s6_h5: "比率",
+  s6_r1: "三つ星以上のホテル（リゾート含む）",
+  s6_r2: "正規ナイトクラブ",
+  s6_r3: "バー",
+  s6_r4: "インターナショナルスクール",
+  s6_r5: "高学費帯の私立学校",
+  s6_a5: "20万生徒×30%",
+  s6_r6: "消防署",
+  s6_r7: "EEC（東部工業地域）危険物取扱工場",
+  s6_total: "合計",
+  s6_note: "ナイトクラブ＋バーで約57%です。155万が88.7万を上回るのは、二年ごとの交換と第3年の拡大によるものです。客室数はNSO 2024のホテル＋リゾート685,883を採用します。製品は、非医療級、火災初期の有毒煙気防護です。",
+  s7_title: "七、価格と販売",
+  s7_a: "公式サイト24,000韓国ウォンは小売の統一基準です。卸売は380฿、MAPは580฿です。",
+  s7_b: "タイは独占販売（専売）とします。本資料に日本・韓国・その他の国は含まれません。",
+  s7_c: "タイ一国のみで、3年間5.89億฿（約27.6億円）あれば事業検証に十分です。",
+  s7_d: "円換算は参考です。契約および決済は฿を基準とします。参考為替レート：1฿ ≒ 4.69円（2026年9月）。",
+  footer: "Confidential · タイ市場限定 · Saving Story / Big Master / Smart Face"
+},
+ko: {
+  htmlLang: "ko",
+  docTitle: "태국 시장　화재 대피용 호흡 보호 마스크｜사업 협력에 관한 설명",
+  eyebrow: "사업 협력에 관한 설명 · Partner Brief",
+  title: "태국 시장　화재 대피용 호흡 보호 마스크",
+  meta_init: "프로젝트 발기：다국적 공동팀（당사、Big Master、Smart Face）",
+  meta_tech: "제품・기술：한국 Saving Story",
+  banner_th: "본 자료의 대상은 태국 시장으로 한정합니다. 일본, 한국, ASEAN 및 기타 국가는 포함되지 않습니다.",
+  card1_label: "도매 가격",
+  card1_sub: "약 1,780엔（380฿）",
+  card2_label: "3년 판매 시장 규모",
+  card2_sub: "약 27.6억엔（5.89억฿）",
+  card3_label: "3년 출하 목표",
+  card3_sub: "30만 / 50만 / 75만 세트",
+  positioning: "본 제품의 태국 판매는 <strong>독점 판매</strong>로 합니다.<br>우선, 수입 상품을 태국에서 판매하기 위해 필요한 인허가 취득과 합작회사 설립 절차를 진행합니다. 회사 설립 후에는 태국 국내 판로를 통해 단계적으로 판매를 확대하고, 이후 현지 생산으로 이행합니다.<br>판매 가격은 한국 공식 사이트 기준을 엄수하며, 높은 수익성을 유지합니다.",
+  fact_fx: "엔화 환산은 참고이며, 계약 및 결제는 ฿를 기준으로 합니다. 참고 환율：1฿ ≒ 4.69엔（2026년 9월）",
+  fact_unit: "계산에 사용하는 단가는 도매 가격 약 1,780엔（380฿）입니다.",
+  fact_kr: "한국 공식 사이트의 24,000원（약 2,540엔）은 시판 하한 가격이며, 3년 시장 규모 계산에는 사용하지 않습니다.",
+  fact_market: "3년 판매 시장 규모：약 27.6억엔（5.89억฿）＝155만 세트 × 약 1,780엔",
+  fact_ship: "3년 출하 목표：155만 세트（1년차 30만, 2년차 50만, 3년차 75만 세트）",
+  fact_map: "최저 소매 가격（MAP）：약 2,720엔（580฿）",
+  s1_title: "일、역할 분담",
+  s1_ss: "Saving Story：개발, 개량, 품질 관리. 본 제품의 특허 실시권을 현물 출자.",
+  s1_us: "당사：태국 방재 및 노동안전 주무 기관과의 교섭. 비의료용 소방 기자재 인허가, 태국 및 ASEAN 판로 개척.",
+  s1_bm: "Big Master 이 씨：월경 교섭. 한국 측 비즈니스 및 공급 확보 창구.",
+  s1_sf: "Smart Face 스기모토 씨：일본 방재 비축 및 대형 안건（병원、학교 등 공공시설）향 판로. 일본은 본 자료 시장 범위에 산입하지 않음. 착수는 조건이 갖춰진 후.",
+  s1_note: "초기에는 경자산 경영을 기본으로 한다. 따라서 고정자산을 보유하지 않으며, 자원은 인허가, 수주, 가격 관리에 집중.",
+  s2_title: "이、상품 가격의 고정 기준",
+  s2_p1: "본 사업에서는 태국에서의 전매 허가를 희망합니다.",
+  s2_p2: "한국 공식 사이트 가격을 통일 최저 소매가로 한다（24,000원, 약 2,540엔）.",
+  s2_p3: "한국 문의 창구가 소매가를 회신할 때도 해당 통일 소매가로 답한다.",
+  s2_p4: "한국으로 들어오는 도매 문의는 태국 측으로 넘겨 일괄 대응한다.",
+  s2_p5: "목적은 동일 제품의 복수 가격을 막고 가격 경쟁을 회피하는 것. 한국 측 생산 수량도 전매 판매 루트에 맞춰 조정이 필요.",
+  s3_title: "삼、향후 진행 방식（4단계）— 순서는 고정. 「A라면 B를 검토」가 아닙니다.",
+  s3_1_label: "제1단계（6개월 이내）",
+  s3_1_a: "임시 전매 계약：태국 측 대표자와 임시의 태국 국내 독점 판매 대리 계약（≤6개월）. 합작 설립 전까지의 합법 대리인 지위. 설립 후 합작 명의로 재계약하고 임시 계약 종료.",
+  s3_1_b: "합작회사 설립 준비：비의료용 소방 기자재 인증 신청; 지분 비율 및 정관 초안.",
+  s3_1_c: "초기 판매 방침：재계 인맥을 통해 대량을 확보. 처음 2～3개월은 출하하지 않고 인허가; 이후 소범위 출하, 반년 약 1.2만 세트.",
+  s3_2_label: "제2단계（7개월째 이후）",
+  s3_2_a: "합작회사 설립. Saving Story는 특허 실시권을 현물 출자.",
+  s3_2_b: "합작 명의의 아시아 지역 총대리 계약으로 정식 전환：임시 전매 종료 후 체결. 임시와 정식은 병행하지 않음.",
+  s3_2_c: "운영：경자산 경영. 가격은 계속 한국 공식 사이트 기준으로 통일. 한국 생산 수량도 전매 루트에 맞춰 조정.",
+  s3_3_label: "제3단계（판매량이 30만 세트에 도달한 후）",
+  s3_3_a: "전제：판매량 30만 세트 도달 후. 주주총회에서 선택：A 태국 위탁 생산 / B 유치 자본으로 공장 건설. 품질 기준은 한국 측. 목적은 태국만이 아니라 ASEAN. Form D 취득 준비도 병행하여 ASEAN 원산지 관세 특혜에 대비.",
+  s3_4_label: "제4단계",
+  s3_4_a: "태국 제조 체제 정비 후 본 단계 진입. 아시아 전역 판로 확대; 보다 강력한 판매 방침; 대형 자본 투입; 비약적 성장 추구.",
+  s4_title: "사、판매 장벽과 가격 주도권",
+  s4_core: "시장 가격의 주도권이 핵심. 장벽이 없으면 가격을 지킬 수 없고, 가격을 지키지 못하면 고수익이 성립하지 않음.",
+  s4_pill2: "전매 측 통일 정가",
+  s4_pill3: "로열티 ＋ 특허 지분",
+  s4_a: "MAP 580฿. 대량도 전매 측이 일괄, 도매가 고정. 견적・할인・세트・입찰도 전매 측이 통일.",
+  s4_b: "채널은 개인이나 별도 회사에 남기지 않고, 계약 후 합작에 귀속. 특허권과 판매를 동일 법인에. 공급／가격／채널 단일 창구. 한국 측은 합작과만 거래하며, 최종 고객에 대한 직접 견적・직접 판매를 하지 않음.",
+  s4_kr_intro: "한국 측 수익은 이층：",
+  s4_royalty: "로열티：판매마다 징수. 요율／방식은 별도 협의. 산정은 두 단계——①한국 완성품 수입 판매 기간 ②태국 현지 생산 개시 후.",
+  s4_equity: "특허 지분：주주가 되어 영업이익／배당을 나눔.",
+  s5_title: "오、3년 출하 목표（단가 380฿）",
+  s5_h1: "연도",
+  s5_h2: "세트 수",
+  s5_h3: "금액（฿）",
+  s5_y1: "1년차",
+  s5_y2: "2년차",
+  s5_y3: "3년차",
+  s5_total: "합계",
+  s5_note: "1년차 리듬：1〜3월 출하 없음; 4〜6월 약 1.2만; 7〜12월 약 28.8만.",
+  s6_title: "육、태국에서의 1차 배치",
+  s6_h1: "판로",
+  s6_h2: "산출",
+  s6_h3: "세트 수",
+  s6_h5: "비중",
+  s6_r1: "3성급 이상 호텔（리조트 포함）",
+  s6_r2: "정규 나이트클럽",
+  s6_r3: "바",
+  s6_r4: "국제학교",
+  s6_r5: "고등록금대 사립학교",
+  s6_a5: "20만 학생×30%",
+  s6_r6: "소방서",
+  s6_r7: "EEC（동부 공업 지역）위험물 취급 공장",
+  s6_total: "합계",
+  s6_note: "나이트클럽＋바 약 57%. 155만이 88.7만을 상회하는 이유는 2년 교체와 3년차 확대 때문. 객실 수는 NSO 2024 호텔＋리조트 685,883을 채택. 제품：비의료급、화재 초기 유독 연무 방호.",
+  s7_title: "칠、가격과 판매",
+  s7_a: "공식 사이트 24,000원은 소매 통일 기준. 도매 380฿. MAP 580฿.",
+  s7_b: "태국은 독점 판매（전매）. 본 자료에 일본・한국・기타 국가는 포함되지 않음.",
+  s7_c: "태국 일국만으로 3년 5.89억฿（약 27.6억엔）이면 사업 검증에 충분합니다.",
+  s7_d: "엔화 환산은 참고입니다. 계약 및 결제는 ฿ 기준. 참고 환율：1฿ ≒ 4.69엔（2026년 9월）.",
+  footer: "Confidential · 태국 시장 한정 · Saving Story / Big Master / Smart Face"
+},
+th: {
+  htmlLang: "th",
+  docTitle: "ตลาดไทย　หน้ากากป้องกันระบบหายใจสำหรับหนีไฟ｜คำอธิบายความร่วมมือทางธุรกิจ",
+  eyebrow: "คำอธิบายความร่วมมือทางธุรกิจ · Partner Brief",
+  title: "ตลาดไทย　หน้ากากป้องกันระบบหายใจสำหรับหนีไฟ",
+  meta_init: "ผู้ริเริ่มโครงการ: ทีมร่วมพหุชาติ（ฝ่ายเรา, Big Master, Smart Face）",
+  meta_tech: "ผลิตภัณฑ์・เทคโนโลยี: Saving Story ประเทศเกาหลี",
+  banner_th: "เอกสารฉบับนี้จำกัดเฉพาะตลาดไทยเท่านั้น ไม่รวมญี่ปุ่น เกาหลี อาเซียน และประเทศอื่น",
+  card1_label: "ราคาขายส่ง",
+  card1_sub: "ประมาณ 1,780 เยน（380฿）",
+  card2_label: "ขนาดตลาดขายใน 3 ปี",
+  card2_sub: "ประมาณ 2.76 พันล้านเยน（5.89 ร้อยล้าน฿）",
+  card3_label: "เป้าหมายจัดส่งใน 3 ปี",
+  card3_sub: "3 แสน / 5 แสน / 7.5 แสน ชุด",
+  positioning: "การจำหน่ายผลิตภัณฑ์นี้ในประเทศไทยเป็นการ<strong>จำหน่ายแบบ독점</strong>.<br>ก่อนอื่น จะดำเนินการขออนุญาตที่จำเป็นสำหรับการจำหน่ายสินค้านำเข้าในประเทศไทย และการจัดตั้งบริษัทร่วมทุน หลังจัดตั้งแล้ว จะขยายการขายผ่านช่องทางในประเทศไทยอย่างเป็นขั้นตอน จากนั้นจึงย้ายสู่การผลิตในประเทศ.<br>ราคาขายจะยึดตามเกณฑ์บนเว็บไซต์ทางการของเกาหลีอย่างเคร่งครัด เพื่อรักษาความสามารถในการทำกำไรในระดับสูง.",
+  fact_fx: "การแปลงเป็นเยนเป็นเพียงการอ้างอิง สัญญาและการชำระเงินยึด ฿ เป็นเกณฑ์ อัตราแลกเปลี่ยนอ้างอิง: 1฿ ≒ 4.69 เยน（กันยายน 2026）",
+  fact_unit: "ราคาต่อหน่วยที่ใช้ในการคำนวณคือราคาขายส่งประมาณ 1,780 เยน（380฿）",
+  fact_kr: "ราคา 24,000 วอนบนเว็บไซต์ทางการของเกาหลี（ประมาณ 2,540 เยน）เป็นราคาขั้นต่ำในตลาด และไม่ใช้คำนวณขนาดตลาด 3 ปี",
+  fact_market: "ขนาดตลาดขายใน 3 ปี: ประมาณ 2.76 พันล้านเยน（5.89 ร้อยล้าน฿）＝1.55 ล้านชุด × ประมาณ 1,780 เยน",
+  fact_ship: "เป้าหมายจัดส่งใน 3 ปี: 1.55 ล้านชุด（ปีที่ 1 จำนวน 3 แสน, ปีที่ 2 จำนวน 5 แสน, ปีที่ 3 จำนวน 7.5 แสนชุด）",
+  fact_map: "ราคาขายปลีกขั้นต่ำ（MAP）: ประมาณ 2,720 เยน（580฿）",
+  s1_title: "๑, การแบ่งบทบาท",
+  s1_ss: "Saving Story: พัฒนา ปรับปรุง ควบคุมคุณภาพ นำสิทธิการใช้สิทธิบัตรของผลิตภัณฑ์นี้มาลงทุนเป็นทุนทรัพย์",
+  s1_us: "ฝ่ายเรา: เจรจากับหน่วยงานกำกับด้านป้องกันภัยพิบัติและความปลอดภัยในการทำงานของไทย ขออนุญาตอุปกรณ์ดับเพลิงที่ไม่ใช่ระดับการแพทย์ และขยายช่องทางในไทยและอาเซียน",
+  s1_bm: "Big Master คุณลี: เจรจาข้ามพรมแดน เป็นหน้าต่างด้านธุรกิจและการประกันอุปทานฝั่งเกาหลี",
+  s1_sf: "Smart Face คุณซูกิโมโตะ: ช่องทางสำรองป้องกันภัยและโครงการขนาดใหญ่ในญี่ปุ่น（โรงพยาบาล、โรงเรียน ฯลฯ สถานที่สาธารณะ） ญี่ปุ่นไม่นับรวมในขอบเขตตลาดของเอกสารนี้ จะเริ่มเมื่อเงื่อนไขพร้อม",
+  s1_note: "ระยะแรกยึดการดำเนินธุรกิจแบบสินทรัพย์เบาเป็นหลัก ดังนั้นไม่ถือครองสินทรัพย์ถาวร เน้นทรัพยากรไปที่การขออนุญาต การรับคำสั่งซื้อ และการบริหารราคา",
+  s2_title: "๒, เกณฑ์ตรึงราคาสินค้า",
+  s2_p1: "ธุรกิจนี้ประสงค์จะได้รับอนุญาตจำหน่ายเฉพาะในประเทศไทย",
+  s2_p2: "ราคาว็็บไซต์ทางการของเกาหลีเป็นราคาขายปลีกขั้นต่ำมาตรฐานเดียวกัน（24,000 วอน, ประมาณ 2,540 เยน）",
+  s2_p3: "ช่องทางสอบถามฝั่งเกาหลีเมื่อตอบราคาขายปลีก ให้ตอบด้วยราคาขายปลีกมาตรฐานเดียวกันนั้น",
+  s2_p4: "คำถามเรื่องขายส่งที่เข้ามายังเกาหลี ให้ส่งต่อฝ่ายไทยดูแลรวมศูนย์",
+  s2_p5: "จุดประสงค์เพื่อป้องกันไม่ให้ผลิตภัณฑ์เดียวกันมีหลายราคา และหลีกเลี่ยงการแข่งขันด้านราคา ปริมาณการผลิตฝั่งเกาหลีต้องปรับให้สอดคล้องกับเส้นทางจำหน่ายเฉพาะด้วย",
+  s3_title: "๓, แนวทางดำเนินการต่อไป（4 ระยะ）— ลำดับคงที่ ไม่ใช่「ถ้า A แล้วค่อยพิจารณา B」",
+  s3_1_label: "ระยะที่ 1（ภายใน 6 เดือน）",
+  s3_1_a: "สัญญาจำหน่ายเฉพาะชั่วคราว: ลงนามสัญญาตัวแทนจำหน่ายแบบชั่วคราวแบบ독점ในประเทศไทยกับตัวแทนฝ่ายไทย（≤6 เดือน） เป็นสถานะตัวแทนที่ชอบด้วยกฎหมายจนกว่าจะจัดตั้งบริษัทร่วมทุน หลังจัดตั้งแล้วให้ลงนามใหม่ในนามบริษัทร่วมทุน และสิ้นสุดสัญญาชั่วคราว",
+  s3_1_b: "เตรียมจัดตั้งบริษัทร่วมทุน: ยื่นขอรับรองอุปกรณ์ดับเพลิงที่ไม่ใช่ระดับการแพทย์; สัดส่วนหุ้นและร่างข้อบังคับ",
+  s3_1_c: "นโยบายขายระยะแรก: ใช้เครือข่ายแวดวงธุรกิจคว้าปริมาณมาก 2～3 เดือนแรกไม่จัดส่ง เน้นขออนุญาต; จากนั้นจัดส่งขอบเขตเล็ก ภายในครึ่งปีประมาณ 12,000 ชุด",
+  s3_2_label: "ระยะที่ 2（ตั้งแต่เดือนที่ 7）",
+  s3_2_a: "จัดตั้งบริษัทร่วมทุน Saving Story นำสิทธิการใช้สิทธิบัตรมาลงทุนเป็นทุนทรัพย์",
+  s3_2_b: "เปลี่ยนอย่างเป็นทางการเป็นสัญญาตัวแทนหลักภูมิภาคเอเชียในนามบริษัทร่วมทุน: ลงนามหลังสิ้นสุดสิทธิจำหน่ายเฉพาะชั่วคราว สิทธิชั่วคราวและสิทธิถาวรไม่ดำเนินควบคู่",
+  s3_2_c: "การดำเนินงาน: สินทรัพย์เบา ราคายังยึดเกณฑ์เว็บไซต์ทางการของเกาหลีเป็นมาตรฐานเดียวกัน ปริมาณผลิตของเกาหลีปรับตามเส้นทางจำหน่ายเฉพาะ",
+  s3_3_label: "ระยะที่ 3（หลังปริมาณขายถึง 3 แสนชุด）",
+  s3_3_a: "เงื่อนไขคือปริมาณขายถึง 3 แสนชุดแล้ว ที่ประชุมผู้ถือหุ้นเลือก: ก จ้างผลิตในไทย / ข ระดมทุนสร้างโรงงาน มาตรฐานคุณภาพยึดฝั่งเกาหลี จุดประสงค์ไม่ใช่เพียงไทย แต่รวมอาเซียน เตรียม Form D ควบคู่เพื่อสิทธิพิเศษภาษีแหล่งกำเนิดอาเซียน",
+  s3_4_label: "ระยะที่ 4",
+  s3_4_a: "หลังระบบผลิตในไทยพร้อม จึงเข้าสู่ระยะนี้ ขยายช่องทางทั่วเอเชีย; นโยบายขายที่แข็งแกร่งขึ้น; ฉีดทุนขนาดใหญ่; มุ่งเติบโตแบบก้าวกระโดด",
+  s4_title: "๔, กำแพงกั้นการจำหน่ายและอำนาจนำด้านราคา",
+  s4_core: "อำนาจนำด้านราคาตลาดเป็นแกนกลาง หากไม่มีกำแพงกั้นก็รักษาราคาไม่ได้ หากรักษาราคาไม่ได้ ผลตอบแทนสูงก็ไม่เกิดขึ้น",
+  s4_pill2: "ราคามาตรฐานเดียวโดยฝ่ายจำหน่ายเฉพาะ",
+  s4_pill3: "ค่าสิทธิ ＋ หุ้นสิทธิบัตร",
+  s4_a: "MAP 580฿ ปริมาณมากก็ให้ฝ่ายจำหน่ายเฉพาะจัดการรวมศูนย์ ราคาขายส่งคงที่ ใบเสนอราคา・ส่วนลด・ชุด・การประมูล ให้ฝ่ายจำหน่ายเฉพาะเป็นผู้กำหนดมาตรฐานเดียวกัน",
+  s4_b: "ช่องทางไม่ให้ค้างอยู่กับบุคคลหรือบริษัทอื่น หลังสัญญาให้สังกัดบริษัทร่วมทุน ให้สิทธิบัตรและการขายอยู่ในนิติบุคคลเดียวกัน อุปทาน／ราคา／ช่องทางเป็นหน้าต่างเดียว ฝั่งเกาหลีติดต่อเฉพาะบริษัทร่วมทุน และไม่เสนอราคา・ขายตรงถึงลูกค้าปลายทาง",
+  s4_kr_intro: "รายได้ฝั่งเกาหลีมีสองชั้น:",
+  s4_royalty: "ค่าสิทธิ（Royalty）: เก็บทุกรอบที่มีการขาย อัตรา／วิธีตกลงเพิ่มเติม คำนวณสองช่วง——①ช่วงนำเข้าจำหน่ายสินค้าสำเร็จรูปจากเกาหลี ②หลังเริ่มผลิตในไทย",
+  s4_equity: "หุ้นสิทธิบัตร: เป็นผู้ถือหุ้น แบ่งปันกำไรจากการดำเนินงาน／เงินปันผล",
+  s5_title: "๕, เป้าหมายจัดส่งใน 3 ปี（ราคาต่อชุด 380฿）",
+  s5_h1: "ปี",
+  s5_h2: "จำนวนชุด",
+  s5_h3: "มูลค่า（฿）",
+  s5_y1: "ปีที่ 1",
+  s5_y2: "ปีที่ 2",
+  s5_y3: "ปีที่ 3",
+  s5_total: "รวม",
+  s5_note: "จังหวะปีที่ 1: เดือน 1〜3 ไม่จัดส่ง; เดือน 4〜6 ประมาณ 12,000; เดือน 7〜12 ประมาณ 288,000",
+  s6_title: "๖, การจัดวางครั้งแรกในประเทศไทย",
+  s6_h1: "ช่องทาง",
+  s6_h2: "วิธีคำนวณ",
+  s6_h3: "จำนวนชุด",
+  s6_h5: "สัดส่วน",
+  s6_r1: "โรงแรมระดับ 3 ดาวขึ้นไป（รวมรีสอร์ต）",
+  s6_r2: "ไนท์คลับที่ถูกต้องตามกฎหมาย",
+  s6_r3: "บาร์",
+  s6_r4: "โรงเรียนนานาชาติ",
+  s6_r5: "โรงเรียนเอกชนกลุ่มค่าเล่าเรียนสูง",
+  s6_a5: "นักเรียน 2 แสนคน×30%",
+  s6_r6: "สถานีดับเพลิง",
+  s6_r7: "โรงงานจัดการสารอันตรายใน EEC（เขตอุตสาหกรรมตะวันออก）",
+  s6_total: "รวม",
+  s6_note: "ไนท์คลับ＋บาร์ประมาณ 57% เป้าหมาย 1.55 ล้านสูงกว่า 887,000 เพราะมีการเปลี่ยนทุกสองปีและการขยายในปีที่ 3 จำนวนห้องพักใช้อ้างอิง NSO 2024 โรงแรม＋รีสอร์ต 685,883 ผลิตภัณฑ์: ระดับที่ไม่ใช่การแพทย์、ป้องกันควันพิษช่วงต้นเพลิงไหม้",
+  s7_title: "๗, ราคาและการจำหน่าย",
+  s7_a: "เว็บไซต์ทางการ 24,000 วอนเป็นเกณฑ์ขายปลีกมาตรฐานเดียวกัน; ขายส่ง 380฿; MAP 580฿",
+  s7_b: "ไทยใช้การจำหน่ายแบบ독점（จำหน่ายเฉพาะ） เอกสารนี้ไม่รวมญี่ปุ่น・เกาหลี・ประเทศอื่น",
+  s7_c: "เพียงประเทศไทยประเทศเดียว ใน 3 ปีมูลค่า 5.89 ร้อยล้าน฿（ประมาณ 2.76 พันล้านเยน）ก็เพียงพอพิสูจน์ธุรกิจ",
+  s7_d: "การแปลงเป็นเยนเป็นเพียงอ้างอิง สัญญาและการชำระเงินยึด ฿ อัตราแลกเปลี่ยนอ้างอิง: 1฿ ≒ 4.69 เยน（กันยายน 2026）",
+  footer: "Confidential · จำกัดเฉพาะตลาดไทย · Saving Story / Big Master / Smart Face"
+}
+};
+
+function applyLang(lang) {
+  const pack = T[lang] || T.zh;
+  document.documentElement.lang = pack.htmlLang;
+  document.title = pack.docTitle;
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const k = el.getAttribute("data-i18n");
+    if (pack[k] != null) el.textContent = pack[k];
+  });
+  document.querySelectorAll("[data-i18n-html]").forEach(el => {
+    const k = el.getAttribute("data-i18n-html");
+    if (pack[k] != null) el.innerHTML = pack[k];
+  });
+  document.querySelectorAll(".lang-bar button").forEach(btn => {
+    btn.setAttribute("aria-pressed", btn.dataset.lang === lang ? "true" : "false");
+  });
+  try { localStorage.setItem("thailand-mask-brief-lang", lang); } catch (e) {}
+}
+
+document.querySelectorAll(".lang-bar button").forEach(btn => {
+  btn.addEventListener("click", () => applyLang(btn.dataset.lang));
+});
+
+let initial = "zh";
+try {
+  const saved = localStorage.getItem("thailand-mask-brief-lang");
+  if (saved && T[saved]) initial = saved;
+} catch (e) {}
+applyLang(initial);
+</script>
+</body>
+</html>
