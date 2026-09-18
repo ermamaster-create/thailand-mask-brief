@@ -2,8 +2,31 @@
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="0; url=./thailand-mask-brief.html">
-<title>Redirect</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Partner Brief · Loading</title>
+<style>body{font-family:sans-serif;padding:24px;color:#333}</style>
 </head>
-<body><p><a href="./thailand-mask-brief.html">Open brief</a></p></body>
+<body>
+<p id="s">載入中，請稍候…</p>
+<script>
+const N = 6;
+const BASE = "https://raw.githubusercontent.com/ermamaster-create/thailand-mask-brief/main/";
+async function go() {
+  const parts = [];
+  for (let i = 0; i < N; i++) {
+    const r = await fetch(BASE + "p" + i + ".txt", {cache: "no-store"});
+    if (!r.ok) throw new Error("chunk " + i + " HTTP " + r.status);
+    parts.push(await r.text());
+  }
+  const bin = Uint8Array.from(atob(parts.join("")), c => c.charCodeAt(0));
+  const html = new TextDecoder("utf-8").decode(bin);
+  document.open();
+  document.write(html);
+  document.close();
+}
+go().catch(e => {
+  document.getElementById("s").textContent = "載入失敗：" + e;
+});
+</script>
+</body>
 </html>
